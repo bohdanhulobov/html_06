@@ -1,0 +1,59 @@
+/* 0 */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* 2 */
+table img {
+  vertical-align: middle;
+}
+
+/* 1 */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* 10 */
+.mondrian {
+  width: 850px;
+}
+
+/* 11 */
+.mondrian td,
+.mondrian tr {
+  border: 10px solid black;
+}
+
+/* 11 */
+.mondrian td {
+  width: 50px;
+}
+
+/* 11 */
+.mondrian tr {
+  height: 40px;
+}
+
+/* 10 */
+.orange {
+  background-color: orange;
+}
+
+/* 10 */
+.red {
+  background-color: red;
+}
+
+/* 10 */
+.black {
+  background-color: black;
+}
+
+/* 10 */
+.blue {
+  background-color: blue;
+}
