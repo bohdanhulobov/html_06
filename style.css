@@ -39,28 +39,33 @@ table {
 }
 
 /* 10 */
-.orange {
+.table__col--additional {
   background-color: orange;
 }
 
 /* 10 */
-.red {
+.table__col--secondary {
   background-color: red;
 }
 
 /* 10 */
-.black {
+.table__col--filled {
   background-color: black;
 }
 
 /* 10 */
-.blue {
+.table__col--unique {
   background-color: blue;
 }
 
+/* 10 */
+.table__col--main {
+  background-color: aliceblue;
+}
+
 /* 11 */
-.mondrian_v2 tr,
-.mondrian_v2 td {
+.mondrian_hidden_header tr,
+.mondrian_hidden_header td {
   border: 3px solid black;
   width: 50px;
   height: 50px;
@@ -68,20 +73,33 @@ table {
 }
 
 /* 21 */
-.mondrian_v2 tr:last-child,
-.mondrian_v2 td:last-child {
+.mondrian_hidden_header tr:last-child,
+.mondrian_hidden_header td:last-child {
   width: 25px;
   height: 25px;
   text-align: center;
 }
 
 /* 21 */
-.mondrian_v2 tr:first-of-type {
+.mondrian_hidden_header tr:first-of-type {
   visibility: hidden;
   height: 0;
 }
 
 /* 21 */
-.mondrian_v2 tr:nth-last-child(2) {
+.mondrian_hidden_header tr:nth-last-child(2) {
   height: 25px;
+}
+
+/* 11 */
+.mondrian__paddings td,
+.mondrian__paddings tr {
+  padding: 70px;
+  border: 5px solid black;
+}
+
+/* 12 */
+tbody tr.outer,
+tbody td.outer {
+  padding: 35px;
 }
