@@ -57,3 +57,31 @@ table {
 .blue {
   background-color: blue;
 }
+
+/* 11 */
+.mondrian_v2 tr,
+.mondrian_v2 td {
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+/* 21 */
+.mondrian_v2 tr:last-child,
+.mondrian_v2 td:last-child {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+/* 21 */
+.mondrian_v2 tr:first-of-type {
+  visibility: hidden;
+  height: 0;
+}
+
+/* 21 */
+.mondrian_v2 tr:nth-last-child(2) {
+  height: 25px;
+}
